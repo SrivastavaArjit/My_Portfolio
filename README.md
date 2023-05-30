@@ -3,7 +3,11 @@
 
 Developed a professional portfolio website using React, a JavaScript library for building user interfaces. Utilized React Router for seamless navigation between different sections of the website. Incorporated React Hooks for efficient state management within functional components and used SASS for the styling.
 
-https://github.com/SrivastavaArjit/My_Portfolio/assets/82926673/5856b26c-d57f-4f40-bafa-5d81c4df16a8
+
+
+https://github.com/SrivastavaArjit/My_Portfolio/assets/82926673/c0146e3e-e56b-4a53-8a86-baeee8c9cba1
+
+
 
 Key Technologies used:
 
