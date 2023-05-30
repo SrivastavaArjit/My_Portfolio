@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# My Portfolio
+
+
+Developed a professional portfolio website using React, a JavaScript library for building user interfaces. Utilized React Router for seamless navigation between different sections of the website. Incorporated React Hooks for efficient state management within functional components and used SASS for the styling.
+
+https://github.com/SrivastavaArjit/My_Portfolio/assets/82926673/5856b26c-d57f-4f40-bafa-5d81c4df16a8
+
+Key Technologies used:
+
+JSX, SASS, React Hook, React Router, GSAP ReactReact, EmailJS, Leaflet.js
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+### Getting Started
+
+In the project directory, you can run:
+
+### `npm init` to download all the modules from package.json
 
 ## Available Scripts
 
