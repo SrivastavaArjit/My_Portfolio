@@ -5,7 +5,11 @@ Developed a professional portfolio website using React, a JavaScript library for
 
 
 
-https://github.com/SrivastavaArjit/My_Portfolio/assets/82926673/c0146e3e-e56b-4a53-8a86-baeee8c9cba1
+
+
+
+https://github.com/SrivastavaArjit/My_Portfolio/assets/82926673/c5697e54-7549-4608-8c84-f56b7bb335e4
+
 
 
 
