@@ -1,0 +1,20 @@
+.logo-container > svg {
+  width: 60vw;
+  max-height: 30vh;
+  visibility: hidden;
+  transform: translateY(-20%);
+  position: absolute;
+  bottom: 0;
+}
+
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 650px;
+  position: absolute;
+  top: 0;
+  right: 24%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+}

@@ -1,0 +1,111 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+  }
+
+  h1 {
+    color: #2b2d42;
+    font-size: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+
+    &:before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #2b2d42;
+      font-size: 21px;
+      position: absolute;
+      margin-top: -40px;
+      left: -10px;
+    }
+
+    &:after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #2b2d42;
+      font-size: 21px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+    }
+
+    @keyframes profile_animate {
+      0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+      }
+
+      50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+      }
+
+      100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+      }
+    }
+
+    .my-image {
+      position: absolute;
+      right: -10em;
+      top: -0.8em;
+      max-width: 400px;
+      margin-left: 20px;
+      height: auto;
+      animation: profile_animate 7s ease-in-out infinite 1s;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translatey(0px);
+      }
+      50% {
+        transform: translatey(-8px);
+      }
+      100% {
+        transform: translatey(0px);
+      }
+    }
+
+    .alphabet {
+      width: 50px;
+      margin-left: 20px;
+      height: auto;
+      animation: float 4s ease-in-out infinite alternate-reverse;
+    }
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .flat-button {
+    color: #2b2d42;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #2b2d42;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s bacwards;
+    white-space: nowrap;
+
+    &:hover {
+      background: #2b2d42;
+      color: #fff;
+    }
+  }
+}
