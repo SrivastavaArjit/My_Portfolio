@@ -19,13 +19,13 @@ const Contact = () => {
 
   const sendForm = (e) => {
     e.preventDefault()
-
+// CREATE YOUR ACCOUNT ON EMAILJS TO GET SERVICE_ID, TEMPLATE_ID, AND PUBLIC_KEY
     emailjs
       .sendForm(
-        'service_tkrlk87',
-        'template_q4loxbl',
+        'SERVICE ID',
+        'TEMPLATE_ID',
         refForm.current,
-        'a3DSLuASqr83Emyx3'
+        'YOUR_PUBLIC_KEY'
       )
       .then(
         () => {
