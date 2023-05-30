@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm init` to download all the modules from package.json
+### `npm install` to download all the modules from package.json
 
 ## Available Scripts
 
